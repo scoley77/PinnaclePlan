@@ -40,7 +40,7 @@
 }
 
 .features > .columns-wrapper {
-    width: 1000px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
 }
@@ -49,7 +49,7 @@
     padding: 20px;
     margin: 42px;
     text-align: center;
-    width: 320px;
+    width: 25%;
     border-bottom: 5px solid transparent;
     border-radius: 10px;
     transition: 1s;

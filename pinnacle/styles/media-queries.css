@@ -8,7 +8,13 @@
     order: 2;
     margin-top: 10px;
     margin-bottom: 15px;
+    width: 95%;
+    justify-content: space-between;
   }
+
+  .navigation-wrapper > .left-column > .icon {
+    margin-left: 5px;
+  } 
 
   .navigation-wrapper > .center-column {
     order: 1;
@@ -18,15 +24,19 @@
   .navigation-wrapper > .right-column {
     order: 3;
     margin-top: 15px;
+    width: 95%;
+    justify-content: space-between;
   }
 
   .navigation-wrapper > .right-column > .address-wrapper {
     order: 2;
+    width: 95%;
   }
 
   .navigation-wrapper > .right-column > .contact-icon {
     order: 1;
     margin-right: 10px;
+    margin-left: 5px;
   }
 
   .links-wrapper {
@@ -57,6 +67,10 @@
   .features > .columns-wrapper {
     width: 90%;
     flex-direction: column;
+  }
+
+  .features > .columns-wrapper > .column {
+    width: 70%;
   }
 
   .footer {

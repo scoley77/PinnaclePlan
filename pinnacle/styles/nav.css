@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 100px;
+    padding: 60px 50px;
 }
 
 /* Left column styles */
@@ -47,8 +47,8 @@
 .navigation-wrapper > .center-column {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 42px;
-    width: 500px;
+    gap: 42px;
+    width: 50%;
 }
 
 .navigation-wrapper > .center-column > .banner-image {
@@ -69,7 +69,7 @@
 
 .links-wrapper > .nav-link {
     text-align: center;
-    width: 70px;
+    width: 100px;
 }
 
 .links-wrapper > .nav-link a {
@@ -83,6 +83,10 @@
 .links-wrapper > .nav-link a:hover {
     color: #5a2f12;
     letter-spacing: 2px;
+}
+
+.links-wrapper > #too-tall a:hover {
+    letter-spacing: normal;
 }
 
 /* Right column styles */

@@ -2,9 +2,13 @@
 
 .contact-grid-wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 100px;
-  width: 1000px;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10%;
+  width: 100vw;
+}
+
+.contact-grid-wrapper > .company-meta-sidebar-wrapper {
+  margin-left: 20%;
 }
 
 .contact-grid-wrapper > .company-meta-sidebar-wrapper > .logo-wrapper img {
@@ -13,9 +17,11 @@
 }
 
 .contact-grid-wrapper > .company-meta-sidebar-wrapper > .company-details {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 25px;
+  align-content: center;
+  justify-items: left;
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 1.25em;
@@ -24,10 +30,11 @@
 
 .contact-grid-wrapper > .company-meta-sidebar-wrapper > .company-details i {
   color: #5a2f12;
+  justify-self: center;
 }
 
 .contact-grid-wrapper > .company-meta-sidebar-wrapper > .company-details div {
-  text-align: right;
+  text-align: left;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: #11122b;
 }

@@ -60,6 +60,10 @@
     font-size: 0.9em;
   }
 
+  .hero-section > .bottom-heading {
+    margin-bottom: 10px;
+  }
+
   .features {
     height: 100%;
   }
@@ -130,9 +134,8 @@
     font-size: 0.9em;
   }
 
-  .page-container {
-    padding-right: 21px;
-    padding-left: 21px;
+  .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper a {
+    color: #11122b;
   }
 
   .page-container > .content-wrapper > #attorney {
@@ -142,6 +145,7 @@
 
   .page-container > .content-wrapper p {
     padding: 5px 15px;
+    margin: auto 15px;
   }
 
   .squares-wrapper > .squares > .square {
@@ -177,11 +181,11 @@
   }
 
   .form > .form-group input {
-    padding: 1.5rem 0rem;
+    padding: 20px;
   }
 
   .form > .form-group textarea {
-    padding: 1.5rem 0rem;
+    padding: 20px;
   }
 }
 

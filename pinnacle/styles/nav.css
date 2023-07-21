@@ -23,6 +23,7 @@
 
 .navigation-wrapper > .left-column > .icon i {
     font-size: 2em;
+    color: #cea135;
 }
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper  {
@@ -81,7 +82,7 @@
 }
 
 .links-wrapper > .nav-link a:hover {
-    color: #5a2f12;
+    color: #cea135;
     letter-spacing: 2px;
 }
 
@@ -110,7 +111,7 @@
 }
 
 .navigation-wrapper > .right-column > .address-wrapper a:hover {
-    color: #5a2f12;
+    color: #11122b;
 }
 
 .navigation-wrapper > .right-column > .contact-icon {
@@ -124,5 +125,9 @@
 }
 
 .navigation-wrapper > .right-column > .contact-icon a:hover {
-    color: #5a2f12;
+    color: #11122b;
+}
+
+.navigation-wrapper > .right-column > .contact-icon i {
+    color: #cea135;
 }
